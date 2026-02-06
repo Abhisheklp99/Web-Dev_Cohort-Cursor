@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root{
+      --main-font:"Geist", sans-serif;
     --bg-primary-color:#14120B;
     --text-main-color:#D7D6D5;
     --hover-color-nav:#B7B5B4;
@@ -23,8 +24,6 @@
     --color-theme-product-chrome: var(--color-theme-bg);
     --color-theme-product-editor: var(--color-theme-card-hex);
     --color-theme-product-text: #26251eeb;
-
-/* -color-theme-text-sec: color-mix(in oklab, var(--color-theme-fg) 60%, transparent); */
             --color-theme-text-sec: 
 color-mix(in oklab, var(--color-theme-fg) 60%, transparent);
 
